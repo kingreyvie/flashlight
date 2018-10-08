@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Ionic 2 Flashlight
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-fab bottom center>
+    <button ion-fab color="{{isOn ? 'secondary' : 'light'}}" (click)="toggleFlash()">
+    <ion-icon name="ios-flash-outline"><ion-icon>
+    </button>
+    </ion-fab>
+
+</ion-content>
